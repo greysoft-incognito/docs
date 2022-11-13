@@ -11,4 +11,14 @@ Audio is usually converted from it's original format into high quality Waveform 
 and rotated in short frequencies making it difficult to decrypt out of malicious intent.
 
 During playback audio is decrypted using these known keys and converted to it's original Waveform Audio File Format and cached for the current session, 
-after the session the original Waveform Audio File is deleted from cache.
+after the session the original Waveform Audio File is deleted from cache, no user interation is required.
+
+## Tech Spec
+
+**Filename extension:** .gpaf
+
+**Format:** 11,025 Hz 4 bit ADPCM (44100 Hz, 16-bit stereo)
+
+**Bitrate:** 44.1 kbit's
+
+**Decodes To:** WAVE (audio/vnd.wave, audio/wav, audio/wave, audio/x-wav)
