@@ -6,6 +6,6 @@ This repository is expected to hold all publicly available documentations, inclu
 Clone this REPO, create a folder for your project add your documentations to the folder you created then create a Pull Request.
 
 ### Table of content
-[Agrobays](agrobays/README.md)
 
-[Gresoft Proprietary Audio Format](GPAF.md)
+1. [Agrobays](agrobays/README.md)
+2. [Gresoft Proprietary Audio Format](GPAF.md)
