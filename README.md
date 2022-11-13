@@ -8,4 +8,4 @@ Clone this REPO, create a folder for your project add your documentations to the
 ### Table of content
 
 1. [Agrobays](agrobays/README.md)
-2. [Gresoft Proprietary Audio Format](GPAF.md)
+2. [Gresoft Proprietary Audio Format](GPAF/README.md)
