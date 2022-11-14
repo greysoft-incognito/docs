@@ -13,6 +13,11 @@ and rotated in short frequencies making it difficult to decrypt out of malicious
 During playback audio is decrypted using these known keys and converted to it's original Waveform Audio File Format and cached for the current session, 
 after the session the original Waveform Audio File is deleted from cache, no user interation is required.
 
+## Mitigating Latency
+
+While retrieving and dycrypting large files for playback might be expensive and possibly affect user experience, this is mitigated with the use of 
+playlists where the first file in the list is retrieved and decrypted and during playback the next file is also retrived and decryted while the previous file is removed from memory.
+
 ## Tech Spec
 
 **Filename extension:** .gpaf
