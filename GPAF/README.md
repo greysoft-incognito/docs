@@ -15,7 +15,7 @@ after the session the original Waveform Audio File is deleted from cache, no use
 
 ## Mitigating Latency
 
-While retrieving and dycrypting large files for playback might be expensive and possibly affect user experience, this is mitigated with the use of 
+While retrieving and decrypting large files for playback might be expensive and possibly affect user experience, this is mitigated with the use of 
 playlists where the first file in the list is retrieved and decrypted and during playback the next file is also retrived and decryted while the previous file is removed from memory.
 
 ## Tech Spec
